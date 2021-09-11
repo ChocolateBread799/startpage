@@ -23,6 +23,7 @@ input::-webkit-search-results-decoration{
 
 .indicator {
     font-family: Azeret Mono;
+    font-weight: Bold;
     font-size: 40px;
     position: absolute;
     padding: 20px 0 0 20px;
@@ -31,6 +32,7 @@ input::-webkit-search-results-decoration{
 
 #move {
     font-family: Azeret Mono;
+    font-weight: Bold;
     font-size: 30px;
     border: none;
     width: 90%;
