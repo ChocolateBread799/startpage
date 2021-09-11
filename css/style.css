@@ -1,0 +1,41 @@
+input::-ms-clear,
+input::-ms-reveal{
+	display:none;width:0;height:0;
+}
+input::-webkit-input-placeholder { color: #5B5B5B; }
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+	display:none;
+}
+
+.container {
+    width: 45%;
+    height: 45%;
+    border: 5px solid black;
+    position: absolute;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+
+.indicator {
+    font-family: NeoDunggeunmo;
+    font-size: 40px;
+    position: absolute;
+    padding: 20px 0 0 20px;
+    z-index: 1;
+}
+
+#move {
+    font-family: NeoDunggeunmo;
+    font-size: 30px;
+    border: none;
+    width: 90%;
+    outline: none;
+    position: absolute;
+    padding: 25px 0 0 55px;
+    display: inline;
+}
