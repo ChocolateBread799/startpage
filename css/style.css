@@ -22,7 +22,7 @@ input::-webkit-search-results-decoration{
 }
 
 .indicator {
-    font-family: NeoDunggeunmo;
+    font-family: Azeret Mono;
     font-size: 40px;
     position: absolute;
     padding: 20px 0 0 20px;
@@ -30,7 +30,7 @@ input::-webkit-search-results-decoration{
 }
 
 #move {
-    font-family: NeoDunggeunmo;
+    font-family: Azeret Mono;
     font-size: 30px;
     border: none;
     width: 90%;
