@@ -1,15 +1,15 @@
 body {
-    background-color: #1b1f27;
+    background-color: #E8E1D7;
 }
 
 .search {
-    border: 2px solid #3f4859;
+    border: 2px solid #C7B09E;
     border-radius: 50px;
     text-decoration: none;
     outline: none;
-    background-color: #1b1f27;
-    color: white;
-    font-family: Iosevka Web;
+    background-color: #E8E1D7;
+    color: #C7B09E;
+    font-family:"Iosevka Web";
     font-weight: bold;
     font-size: 140%;
     position: absolute;
@@ -26,7 +26,7 @@ input::-ms-clear,
 input::-ms-reveal{
 	display:none;width:0;height:0;
 }
-input::-webkit-input-placeholder { color: #636d80; }
+input::-webkit-input-placeholder { color: #b9ab9f; }
 input::-webkit-search-decoration,
 input::-webkit-search-cancel-button,
 input::-webkit-search-results-button,
