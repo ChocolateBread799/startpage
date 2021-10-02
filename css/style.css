@@ -9,9 +9,9 @@ body {
     outline: none;
     background-color: #E8E1D7;
     color: #C7B09E;
-    font-family:"Roboto Mono", "Iosevka Web";
+    font-family:"Roboto Mono";
     font-weight: bold;
-    font-size: 140%;
+    font-size: 120%;
     position: absolute;
 	left: 50%;
     top: 50%;
