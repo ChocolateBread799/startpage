@@ -3,14 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>/home</title>
+    <title>/home/fun</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form action="https://www.google.com/search" method="GET">
-        <input autofocus name="q" class="search" type="search" placeholder="Search" autofocus>
-    </form>
+    <div class="text_container">
+        <div class="textbox">
+            <h1 class="textbox_text">Welcome!</h1>
+            <div class="social">
+                <h2 class="textbox_social">Me</h2>
+
+                <button onclick="location.href='https://github.com/ChocolateBread799'" class="mygithub">@github</button>
+                <button onclick="location.href='https://www.reddit.com/user/woowak01'" class="myreddit">@reddit</button>
+                <button onclick="location.href='https://chocolatebread799.tumblr.com/'" class="mytumblr">@tumblr</button>
+            </div>
+        </div>
+        <div class="textbox_shadow"></div>
+    </div>
+
+    <div class="clock_container">
+        <div class="clock">
+            <h1 class="clock_text">Clock</h1>
+            <h1 class="clock_js"></h1>
+        </div>
+
+        <div class="clock_shadow"></div>
+    </div>
+
+    <div class="search_container">
+        <form action="https://www.google.com/search" method="GET">
+            <input autofocus name="q" class="search" type="search" placeholder="Search" autofocus>
+        </form>
+        
+        <div class="search_shadow"></div>
+    </div>
+
+    <div class="urls_container">
+        <div class="urls">
+            <button onclick="location.href='https://www.youtube.com/'" class="youtube">Youtube</button>
+            <button onclick="location.href='https://www.netflix.com/browse'" class="netflix">Netflix</button>
+            <button onclick="location.href='https://www.reddit.com/r/unixporn/'" class="unixporn">r/unixporn</button>
+            <button onclick="location.href='https://github.com/'" class="github">Github</button>
+        </div>
+
+        <div class="urls_shadow"></div>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
