@@ -213,54 +213,56 @@ input::-webkit-search-results-decoration{
     .textbox {
         top: 33%;
         left: 50%;
+        min-width: 87.6%;
         min-height: 250px;
     }
 
     .textbox_shadow {
         top: 34%;
         left: 52%;
+        min-width: 87.6%;
         min-height: 250px;
     }
 
     .clock {
         top: 63%;
         left: 50%;
-        min-width: 375px;
+        min-width: 87.6%;
         min-height: none;
     }
 
     .clock_shadow {
         top: 64%;
         left: 52%;
-        min-width: 375px;
+        min-width: 87.6%;
         min-height: none;
     }
 
     .search {
         top: 10%;
         left: 50%;
-        min-width: 375px;
+        min-width: 87.6%;
     }
 
     .search_shadow {
         top: 11%;
         left: 53%;
-        min-width: 360px;
-        min-height: 70px;
+        min-width: 84.1%;
+        min-height: 9%;
     }
 
     .urls {
-        min-width: 375px;
+        min-width: 87.6%;
         left: 50%;
         top: 86%;
-        min-height: 70px;
+        min-height: 9%;
     }
 
     .urls_shadow {
         left: 52.3%;
         top: 87.4%;
-        min-height: 80px;
-        min-width: 375px;
+        min-height: 9%;
+        min-width: 86%;
     }
 
     .youtube, .netflix, .unixporn, .github {
@@ -273,6 +275,32 @@ input::-webkit-search-results-decoration{
         color: #272727;
         border: none;
         background: #EFE9DB;
-        padding: 20px;
+        padding: 5.3%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .textbox {
+        top: 35%;
+    }
+
+    .textbox_shadow {
+        top: 36%;
+    }
+
+    .clock {
+        top: 68%;
+    }
+
+    .clock_shadow {
+        top: 69%;
+    }
+
+    .urls {
+        top: 90%;
+    }
+
+    .urls_shadow {
+        top: 91%;
     }
 }
