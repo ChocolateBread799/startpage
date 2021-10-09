@@ -211,41 +211,27 @@ input::-webkit-search-results-decoration{
 
 @media screen and (max-width: 480px) {
     .textbox {
-        top: 33%;
+        top: 45%;
         left: 50%;
         min-width: 87.6%;
         min-height: 250px;
     }
 
     .textbox_shadow {
-        top: 34%;
+        top: 46%;
         left: 52%;
         min-width: 87.6%;
         min-height: 250px;
     }
 
-    .clock {
-        top: 63%;
-        left: 50%;
-        min-width: 87.6%;
-        min-height: none;
-    }
-
-    .clock_shadow {
-        top: 64%;
-        left: 52%;
-        min-width: 87.6%;
-        min-height: none;
-    }
-
     .search {
-        top: 10%;
+        top: 15%;
         left: 50%;
         min-width: 87.6%;
     }
 
     .search_shadow {
-        top: 11%;
+        top: 16%;
         left: 53%;
         min-width: 84.1%;
         min-height: 9%;
@@ -254,13 +240,13 @@ input::-webkit-search-results-decoration{
     .urls {
         min-width: 87.6%;
         left: 50%;
-        top: 86%;
+        top: 80%;
         min-height: 9%;
     }
 
     .urls_shadow {
         left: 52.3%;
-        top: 87.4%;
+        top: 81%;
         min-height: 9%;
         min-width: 86%;
     }
@@ -277,30 +263,8 @@ input::-webkit-search-results-decoration{
         background: #EFE9DB;
         padding: 5.3%;
     }
-}
 
-@media screen and (max-width: 375px) {
-    .textbox {
-        top: 35%;
-    }
-
-    .textbox_shadow {
-        top: 36%;
-    }
-
-    .clock {
-        top: 68%;
-    }
-
-    .clock_shadow {
-        top: 69%;
-    }
-
-    .urls {
-        top: 90%;
-    }
-
-    .urls_shadow {
-        top: 91%;
+    .clock_container > * {
+        display: none;
     }
 }
