@@ -204,3 +204,75 @@ input::-webkit-search-results-decoration{
     cursor: pointer;
     color: #464646;
 }
+
+.youtube_mobile, .google_mobile, .unixporn_mobile, .github_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .textbox {
+        top: 33%;
+        left: 50%;
+        min-height: 250px;
+    }
+
+    .textbox_shadow {
+        top: 34%;
+        left: 52%;
+        min-height: 250px;
+    }
+
+    .clock {
+        top: 63%;
+        left: 50%;
+        min-width: 375px;
+        min-height: none;
+    }
+
+    .clock_shadow {
+        top: 64%;
+        left: 52%;
+        min-width: 375px;
+        min-height: none;
+    }
+
+    .search {
+        top: 10%;
+        left: 50%;
+        min-width: 375px;
+    }
+
+    .search_shadow {
+        top: 11%;
+        left: 53%;
+        min-width: 360px;
+        min-height: 70px;
+    }
+
+    .urls {
+        min-width: 375px;
+        left: 50%;
+        top: 86%;
+        min-height: 70px;
+    }
+
+    .urls_shadow {
+        left: 52.3%;
+        top: 87.4%;
+        min-height: 80px;
+        min-width: 375px;
+    }
+
+    .youtube, .netflix, .unixporn, .github {
+        display: none;
+    }
+
+    .youtube_mobile, .google_mobile, .unixporn_mobile, .github_mobile {
+        display: inline-block;
+        font-size: 40px;
+        color: #272727;
+        border: none;
+        background: #EFE9DB;
+        padding: 20px;
+    }
+}
