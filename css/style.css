@@ -221,7 +221,7 @@ input::-webkit-search-results-decoration{
         top: 46%;
         left: 52%;
         min-width: 87.6%;
-        min-height: 250px;
+        min-height: 253px;
     }
 
     .search {
@@ -234,7 +234,7 @@ input::-webkit-search-results-decoration{
         top: 16%;
         left: 53%;
         min-width: 84.1%;
-        min-height: 9%;
+        min-height: 10%;
     }
 
     .urls {
@@ -247,7 +247,7 @@ input::-webkit-search-results-decoration{
     .urls_shadow {
         left: 52.3%;
         top: 81%;
-        min-height: 9%;
+        min-height: 13%;
         min-width: 86%;
     }
 
@@ -264,6 +264,10 @@ input::-webkit-search-results-decoration{
         padding: 5.3%;
     }
 
+    .youtube_mobile:hover, .google_mobile:hover, .unixporn_mobile:hover, .github_mobile:hover {
+        cursor: pointer;
+    }
+    
     .clock_container > * {
         display: none;
     }
