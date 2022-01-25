@@ -1,122 +1,44 @@
-body {
-    background: #F8EDD7 url("../img/bg.png") no-repeat;
+* {
+    font-family: "MADE Outer Sans";
+    user-select: none;
 }
 
-.textbox {
-    background: #EFE9DB;
-    width: 19.27%;
-    height: 26%;
-    min-width: 375px;
-    min-height: 270px;
-    top: 25%;
+.logo {
+    position: absolute;
     left: 50%;
-    position: absolute;
+    top: 30%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    border: 5px solid #272727;
-    border-radius: 20px;
-    z-index: 1;
+    display: flex;
 }
 
-.textbox_shadow {
-    background: #272727;
-    width: 19.27%;
-    height: 26%;
-    min-width: 375px;
-    min-height: 270px;
-    top: 26%;
-    left: 50.5%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    border: 5px solid #272727;
-    border-radius: 20px;
+.logo > span {
+    font-size: 120px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
-.textbox_text {
-    font-family: "Roboto Mono";
-    font-weight: Bold;
-    font-size: 30px;
-    padding-top: 10%;
+.blue {
+    color: #605ef2;
 }
 
-.textbox_social {
-    font-family: "Roboto Mono";
-    font-weight: 500;
-    font-size: 20px;
-    padding-top: 12%;
+.red {
+    color: #f25e61;
 }
 
-.mygithub, .myreddit, .mytumblr {
-    font-family: "Roboto Mono";
-    font-weight: 600;
-    font-size: 18px;
-    border: 3px solid #272727;
-    border-radius: 10px;
-    margin: 10% 2% 0 2%;
-    padding: 1.5% 1.5% 1.5% 1.5%;
-    color: #272727;
-    background-color: #EFE9DB;
+.yellow {
+    color: #f2e35e;
 }
 
-.mygithub:hover, .myreddit:hover, .mytumblr:hover {
-    color: #EFE9DB;
-    background-color: #272727;
-    cursor: pointer;
-}
-
-.clock {
-    width: 18.23%;
-    height: 15%;
-    min-height: 155px;
-    min-width: 330px;
-    position: absolute;
-    background-color: #EFE9DB;
-    border: 5px solid #272727;
-    color: #272727;
-    text-align: center;
-    border-radius: 20px;
-    top: 65%;
-    left: 15%;
-    transform: translate(-50%, -50%);
-    padding-top: 40px;
-    z-index: 1;
-}
-
-.clock_shadow {
-    width: 18.23%;
-    height: 15%;
-    min-height: 155px;
-    min-width: 330px;
-    position: absolute;
-    background-color: #272727;
-    border: 5px solid #272727;
-    color: #272727;
-    text-align: center;
-    border-radius: 20px;
-    top: 66%;
-    left: 15.5%;
-    transform: translate(-50%, -50%);
-    padding-top: 40px;
-}
-
-.clock_text {
-    font-family: "Roboto Mono";
-    font-weight: Bold;
-    font-size: 30px;
-}
-
-.clock_js {
-    font-family: "Roboto Mono";
-    font-weight: 500;
-    font-size: 25px;
-    padding-top: 10%;
+.green {
+    color: #5ef28f;
 }
 
 input::-ms-clear,
 input::-ms-reveal{
 	display:none;width:0;height:0;
 }
-input::-webkit-input-placeholder { color: #272727; }
+input::-webkit-input-placeholder { color: #757575; }
 input::-webkit-search-decoration,
 input::-webkit-search-cancel-button,
 input::-webkit-search-results-button,
@@ -125,150 +47,24 @@ input::-webkit-search-results-decoration{
 }
 
 .search {
-    background: #EFE9DB;
-    font-family: "Roboto Mono";
-    font-weight: 500;
-    font-size: 20px;
-    border-radius: 15px;
-    border: 5px solid #272727;
-    outline: none;
-    position: absolute;
-    width: 52.1%;
-    height: 7.4%;
-    min-width: 300px;
-    min-height: 80px;
-    top: 86%;
-    left: 60%;
-    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 60px;
+    width: 50%;
     padding-left: 20px;
-    z-index: 1;
-}
-
-.search_shadow {
-    background: #272727;
-    border-radius: 15px;
-    border: 5px solid #272727;
-    outline: none;
     position: absolute;
-    width: 51.6%;
-    height: 6.6%;
-    min-width: 300px;
-    min-height: 80px;
-    top: 87%;
-    left: 60.5%;
-    transform: translate(-50%, -50%);
-}
-
-.urls {
-    width: 15.1%;
-    height: 20;
-    min-width: 205px;
-    min-height: 240px;
-    background: #EFE9DB;
-    border-radius: 15px;
-    border: 5px solid #272727;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    left: 50%;
     top: 55%;
-    left: 75%;
-    z-index: 1;
-    text-align: center;
-}
-
-.urls_shadow {
-    width: 15.1%;
-    height: 20;
-    min-width: 205px;
-    min-height: 240px;
-    background: #272727;
-    border-radius: 15px;
-    border: 5px solid #272727;
-    position: absolute;
     transform: translate(-50%, -50%);
-    top: 56%;
-    left: 75.5%;
-}
-
-.youtube, .netflix, .unixporn, .github {
-    outline: none;
-    border: none;
-    font-family: "Roboto Mono";
-    font-weight: 500;
-    font-size: 25px;
-    position: relative;
-    background: #EFE9DB;
-    padding: 20px 20px 0px 20px;
-}
-
-.youtube:hover, .netflix:hover, .unixporn:hover, .github:hover {
-    cursor: pointer;
-    color: #464646;
-}
-
-.youtube_mobile, .google_mobile, .unixporn_mobile, .github_mobile {
-    display: none;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 480px) {
-    .textbox {
-        top: 45%;
-        left: 50%;
-        min-width: 87.6%;
-        min-height: 250px;
-    }
-
-    .textbox_shadow {
-        top: 46%;
-        left: 52%;
-        min-width: 87.6%;
-        min-height: 253px;
-    }
-
-    .search {
-        top: 15%;
-        left: 50%;
-        min-width: 87.6%;
-    }
-
-    .search_shadow {
-        top: 16%;
-        left: 53%;
-        min-width: 84.1%;
-        min-height: 10%;
-    }
-
-    .urls {
-        min-width: 87.6%;
-        left: 50%;
-        top: 80%;
-        min-height: 9%;
-    }
-
-    .urls_shadow {
-        left: 52.3%;
-        top: 81%;
-        min-height: 13%;
-        min-width: 86%;
-    }
-
-    .youtube, .netflix, .unixporn, .github {
-        display: none;
-    }
-
-    .youtube_mobile, .google_mobile, .unixporn_mobile, .github_mobile {
-        display: inline-block;
-        font-size: 40px;
-        color: #272727;
-        border: none;
-        background: #EFE9DB;
-        padding: 5.3%;
-    }
-
-    .youtube_mobile:hover, .google_mobile:hover, .unixporn_mobile:hover, .github_mobile:hover {
-        cursor: pointer;
+    .logo > span {
+        font-size: 75px;
     }
     
-    .clock_container > * {
-        display: none;
+    .search {
+        width: 80%;
     }
 }
